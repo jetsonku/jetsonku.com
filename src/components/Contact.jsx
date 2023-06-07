@@ -30,7 +30,7 @@ export const Contact = () => {
   }
 
   return (
-    <div>
+    <div name="contact">
     <form
       ref={form}
       onSubmit={sendEmail}
