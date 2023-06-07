@@ -40,8 +40,8 @@ export const Contact = () => {
       
       <div className='flex flex-col max-w-[600px] w-full'>
       <div className='pb-8 flex flex-col justify-center w-full h-full items-center'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#b48d22] text-[#b48d22]'>Contact</p>
-                <p className='text-[#b48d22] py-4'>Send me a message</p>
+                <p className='text-4xl font-bold inline border-b-4 pt-20 border-[#b48d22] text-[#b48d22]'>Contact</p>
+                <p className='pt-6 text-2xl text-[#b48d22]'>Send me a message</p>
             </div>
             <input className='bg-[#0b1016] text-[#b48d22] p-2' type="text" placeholder='Name' name='user_name' />
             <input className='my-4 p-2 bg-[#0b1016] text-[#b48d22]' type="email" placeholder='Email' name='user_email' />
