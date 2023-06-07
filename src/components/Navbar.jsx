@@ -148,6 +148,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.terpconnect.umd.edu/~jetsonku/jetson_ku_resume.pdf'
               target='_blank'
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

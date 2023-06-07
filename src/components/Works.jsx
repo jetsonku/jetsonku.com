@@ -1,5 +1,4 @@
 import React from 'react';
-import code from '../assets/code2.png';
 import darko from '../assets/darko.png';
 import bdcup from '../assets/bdcup.png';
 import ndfdfv from '../assets/ndfdfv.png';
@@ -31,12 +30,12 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>An NHL projection model</p>
               <div className='text-center'>
-                <a href='https://nhl-darko.herokuapp.com/compare' target='_blank'>
+                <a href='https://nhl-darko.herokuapp.com/compare' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Site
                   </button>
                 </a>
-                <a href='https://github.com/jetsonku/NHLDarko' target='_blank'>
+                <a href='https://github.com/jetsonku/NHLDarko' target='_blank'rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -55,7 +54,7 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>My submission to Stathletes' Big Data Cup in 2021</p>
               <div className='text-center'>
-                <a href='https://www.terpconnect.umd.edu/~jetsonku/jetsonku_big_data_cup.pdf' target='_blank'>
+                <a href='https://www.terpconnect.umd.edu/~jetsonku/jetsonku_big_data_cup.pdf' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Paper
                   </button>
@@ -74,12 +73,12 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>My project with the National Weather Service</p>
               <div className='text-center'>
-                <a href='https://docs.google.com/presentation/d/e/2PACX-1vTFq1kN1jLwQP9PED47gNgWkjeZhiROSGqpzTu_VwU54FDF-7Zg5nxlen0cPBE6MjGzFFmx4syy6QhW/pub?start=false&loop=false&delayms=60000&slide=id.p' target='_blank'>
+                <a href='https://docs.google.com/presentation/d/e/2PACX-1vTFq1kN1jLwQP9PED47gNgWkjeZhiROSGqpzTu_VwU54FDF-7Zg5nxlen0cPBE6MjGzFFmx4syy6QhW/pub?start=false&loop=false&delayms=60000&slide=id.p' target='_blank' rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Presentation
                   </button>
                 </a>
-                <a href='https://github.com/jetsonku/jetsonku.github.io/blob/main/queries.py' target='_blank'>
+                <a href='https://github.com/jetsonku/jetsonku.github.io/blob/main/queries.py' target='_blank' rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -98,7 +97,7 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>A roster dataset, cleaned and standardized by my JOUR479X class</p>
               <div className='text-center'>
-              <a href='https://github.com/Sports-Roster-Data/womens-college-basketball' target='_blank'>
+              <a href='https://github.com/Sports-Roster-Data/womens-college-basketball' target='_blank' rel="noreferrer">
               <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Repo
                   </button>
@@ -117,7 +116,7 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>My final project for JOUR479X</p>
               <div className='text-center'>
-                <a href='https://jetsonku.github.io/sportsdatablog/2022/12/05/nhl-draft-pick-value/' target='_blank'>
+                <a href='https://jetsonku.github.io/sportsdatablog/2022/12/05/nhl-draft-pick-value/' target='_blank' rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Blog
                   </button>
@@ -136,7 +135,7 @@ const Works = () => {
               </span>
               <p className='text-center m-2'>Profiling Maryland's new basketball coach based on clustering past data</p>
               <div className='text-center'>
-                <a href='https://jetsonku.github.io/sportsdatablog/2022/11/15/what-defines-a-kevin-willard-team/' target='_blank'>
+                <a href='https://jetsonku.github.io/sportsdatablog/2022/11/15/what-defines-a-kevin-willard-team/' target='_blank' rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Blog
                   </button>
