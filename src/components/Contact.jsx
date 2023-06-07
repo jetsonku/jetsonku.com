@@ -1,21 +1,30 @@
+import React, { useRef, useState } from 'react';
 
-import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/44ff5230-0639-11ee-8267-d3eb100789b4";
-
-const ContactForm = () => {
+export const Contact = () => {
+  const form = useRef();
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
     setTimeout(() => {
       setSubmitted(true);
     }, 100);
+    emailjs.sendForm('service_xnskcxj', 'template_id3gxxc', form.current, 'Rd3OjvtjLT6zcg5uq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
+        <div className='w-full bg-[#1f242a] pt-16 text-[#b48d22] flex justify-center items-center'>Thanks for the message!</div>
+        <div className='w-full bg-[#1f242a] pb-16 text-[#b48d22] flex justify-center items-center'>I'll get back to you as soon as possible</div>
       </>
     );
   }
@@ -23,8 +32,8 @@ const ContactForm = () => {
   return (
     <div>
     <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
+      ref={form}
+      onSubmit={sendEmail}
       method="POST"
       className='w-full h-screen bg-[#1f242a] flex justify-center items-center p-8'
     >
@@ -34,14 +43,14 @@ const ContactForm = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#b48d22] text-[#b48d22]'>Contact</p>
                 <p className='text-[#b48d22] py-4'>Send me a message</p>
             </div>
-            <input className='bg-[#0b1016] text-[#b48d22] p-2' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#0b1016] text-[#b48d22]' type="email" placeholder='Email' name='email' />
+            <input className='bg-[#0b1016] text-[#b48d22] p-2' type="text" placeholder='Name' name='user_name' />
+            <input className='my-4 p-2 bg-[#0b1016] text-[#b48d22]' type="email" placeholder='Email' name='user_email' />
             <textarea className='bg-[#0b1016] p-2 text-[#b48d22]' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-[#b48d22] border-2 hover:bg-[#b48d22] hover:text-[#1f242a] px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+            <button className='text-[#b48d22] border-2 hover:bg-[#b48d22] hover:text-[#1f242a] px-4 py-3 my-8 mx-auto flex items-center'>Submit</button>
       </div>
     </form>
     </div>
   );
 };
 
-export default ContactForm;
+export default Contact;

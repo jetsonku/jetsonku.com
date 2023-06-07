@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0b1016] text-[#b48d22]'  style={{zIndex:6}}>
+    <div className='fixed w-full h-[70px] flex justify-between items-center px-4 pt-2 bg-[#0b1016] text-[#b48d22]'  style={{zIndex:6}}>
       <div>
         <h1 className=' font-thin text-2xl italic font-serif'>JK</h1>
       </div>

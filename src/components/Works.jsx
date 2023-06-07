@@ -24,7 +24,7 @@ const Works = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 NHL DARKO
               </span>
@@ -48,7 +48,7 @@ const Works = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 Big Data Cup 2021
               </span>
@@ -67,14 +67,14 @@ const Works = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 NDFD Comparative Forecast Verification
               </span>
               <p className='text-center m-2'>My project with the National Weather Service</p>
               <div className='text-center'>
                 <a href='https://docs.google.com/presentation/d/e/2PACX-1vTFq1kN1jLwQP9PED47gNgWkjeZhiROSGqpzTu_VwU54FDF-7Zg5nxlen0cPBE6MjGzFFmx4syy6QhW/pub?start=false&loop=false&delayms=60000&slide=id.p' target='_blank' rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
+                <button className='text-center rounded-lg px-4 py-2 m-0 bg-white text-gray-700 font-bold text-lg'>
                     Presentation
                   </button>
                 </a>
@@ -91,7 +91,7 @@ const Works = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 Women's College Basketball Rosters
               </span>
@@ -107,10 +107,10 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${draft})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='shadow-lg shadow-[#040c16] container rounded-md flex justify-center items-center mx-auto content-div group'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 NHL Draft Pick Value
               </span>
@@ -129,7 +129,7 @@ const Works = () => {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-[0] group-hover:opacity-100 flex justify-center items-center flex-col'>
             <span className=' text-lg text-center pt-8 font-bold text-[#1f242a]   tracking-wider'>
                 Defining a Kevin Willard Team
               </span>
